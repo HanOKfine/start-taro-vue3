@@ -21,7 +21,7 @@ git clone https://github.com/HanOKfine/start-taro-vue3.git
 node ver 16.13.0
 
 ```bash
-cd taro3-vue3-template
+cd start-taro-vue3
 pnpm install
 ```
 
@@ -50,7 +50,7 @@ export default {
   },
   subpackages: [
     {
-      root: 'pages/featureA',
+      root: 'sub-pages/featureA',
       pages: ['index/index'],
     },
   ],
